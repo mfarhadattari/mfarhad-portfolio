@@ -1,7 +1,9 @@
+import NavBar from "@/components/NavBar";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Mohammad Farhad </h1>
+    <div className=" overflow-hidden">
+      <NavBar/>
     </div>
   );
 }
