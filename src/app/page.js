@@ -5,6 +5,7 @@ import NavBar from "@/components/NavBar";
 import Projects from "@/components/Projects";
 import Services from "@/components/Services";
 import Skills from "@/components/Skills";
+import SocialLinks from "@/components/SocialLinks";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <Projects/>
       <Skills/>
       <Contact/>
+      <SocialLinks/>
     </div>
   );
 }
