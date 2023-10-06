@@ -16,13 +16,15 @@ const About = () => {
         </div>
         <Fade duration={4000}>
           <p className="text-xl mt-3">
-            I am a passionate web designer & developer. I have pretty solid
-            experience in frontend web development. I am expert in HTML, CSS,
-            Bootstrap, Tailwind, JavaScript ES6 and React JS, Node Js, MongoDb
-            (Always love to learn something new). I really love to code & my
-            happiness is to solve these problems with joy, in modular and
-            reusable way so the project always remains scalable and
-            maintainable.
+            Hello, My name is Mohammad Farhad. I am a Junior passionate web
+            designer & developer with a specialization in front-end and back-end
+            web development. I have expertise in React JS which allow me to
+            develop interactive and dynamic web frontend. I am also computable
+            with JavaScript, Express.js and MongoDB which allow me to develop
+            API and backend system using node environment. I am always love to
+            learn something new. I really love to code & my happiness is to
+            solve these problems with joy, in modular and reusable way so the
+            project always remains scalable and maintainable.
           </p>
         </Fade>
         <br />

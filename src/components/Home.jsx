@@ -11,16 +11,16 @@ const Home = () => {
   return (
     <div
       name="home"
-      className=" w-full bg-gradient-to-b from-black via-black to-gray-800 pt-14 md:pt-40"
+      className=" w-full bg-gradient-to-b from-black via-black to-gray-800 pt-14 md:pt-40 pb-10"
     >
       <div className=" container mx-auto px-20  flex justify-center">
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
           <Fade left duration={2000}>
             <div className="flex flex-col justify-center h-full mt-14 lg:mt-6 w-full">
               <h1 className="text-4xl sm:text-3xl font-bold text-white">
                 This is <span className="text-blue-300">Farhad</span>,
               </h1>
-              <h2 className="text-4xl sm:text-4xl font-bold text-white w-full">
+              <h2 className="text-4xl sm:text-3xl font-bold text-white w-full">
                 I am a
                 <TypeAnimation
                   sequence={[
