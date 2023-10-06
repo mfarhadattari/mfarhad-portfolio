@@ -33,11 +33,11 @@ const Message = () => {
   return (
     <>
       <Fade top duration={4000}>
-        <div className=" flex justify-center items-center">
+        <div className=" flex justify-center items-center w-full">
           <form
             ref={form}
             onSubmit={sendEmail}
-            className=" flex flex-col w-full md:w-1/2"
+            className=" flex flex-col w-full"
           >
             <input
               type="text"
@@ -62,7 +62,7 @@ const Message = () => {
             <input
               type="submit"
               value="Send"
-              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 w-full my-8 text-center rounded-md hover:scale-110 duration-300"
             />
           </form>
         </div>
