@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Contact from "@/components/Contract";
+import Footer from "@/components/Footer";
 import Home from "@/components/Home";
 import NavBar from "@/components/NavBar";
 import Projects from "@/components/Projects";
@@ -18,6 +19,7 @@ export default function HomePage() {
       <Skills/>
       <Contact/>
       <SocialLinks/>
+      <Footer/>
     </div>
   );
 }
