@@ -19,7 +19,7 @@ const Footer = () => {
             </p>
             <p className="text-center mt-4">
               <button className="bg-gradient-to-b from-cyan-500 to-blue-500 font-semibold text-white px-4 py-2 rounded-sm hover:scale-110 duration-300">
-                Hire Me ❤️
+                <a href="https://www.linkedin.com/in/mfarhad-dev">Hire Me ❤️</a>
               </button>
             </p>
           </div>

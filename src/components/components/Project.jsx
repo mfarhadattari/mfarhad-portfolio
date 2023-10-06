@@ -4,7 +4,7 @@ import { FaGithub, FaLink } from "react-icons/fa";
 const Project = ({ project }) => {
   const { src, title, live, code, details } = project;
   return (
-    <div className="shadow-md shadow-gray-600 rounded-lg h-full">
+    <div className="shadow-md shadow-gray-600 hover:shadow-lg hover:shadow-gray-600 rounded-lg h-full">
       <Image
         src={src}
         alt=""

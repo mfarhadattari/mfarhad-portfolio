@@ -21,85 +21,85 @@ const Skills = () => {
       id: 1,
       src: html,
       title: "HTML",
-      style: "shadow-orange-500",
+      style: "hover:shadow-orange-500 shadow-orange-500",
     },
     {
       id: 2,
       src: css,
       title: "CSS",
-      style: "shadow-blue-500",
+      style: "shadow-blue-500 hover:shadow-blue-500",
     },
     {
       id: 3,
       src: javascript,
       title: "JavaScript",
-      style: "shadow-yellow-500",
+      style: "shadow-yellow-500 hover:shadow-yellow-500",
     },
     {
       id: 4,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-blue-600 hover:shadow-blue-600",
     },
     {
       id: 14,
       src: redux,
       title: "Redux",
-      style: "shadow-purple-600",
+      style: "shadow-purple-600 hover:shadow-purple-600",
     },
     {
       id: 5,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-sky-400",
+      style: "shadow-sky-400 hover:shadow-sky-400",
     },
     {
       id: 6,
       src: bootstrap,
       title: "Bootstrap",
-      style: "shadow-blue-400",
+      style: "shadow-blue-400 hover:shadow-blue-400",
     },
     {
       id: 7,
       src: nextjs,
       title: "Next JS",
-      style: "shadow-white",
+      style: "shadow-white hover:shadow-white",
     },
     {
       id: 8,
       src: node,
       title: "Node JS",
-      style: "shadow-green-400",
+      style: "shadow-green-400 hover:shadow-green-400",
     },
     {
       id: 9,
       src: expressjs,
       title: "Express JS",
-      style: "shadow-orange-400",
+      style: "shadow-orange-400 hover:shadow-orange-400",
     },
     {
       id: 10,
       src: mongo,
       title: "MongoDB",
-      style: "shadow-green-400",
+      style: "shadow-green-400 hover:shadow-green-400",
     },
     {
       id: 11,
       src: jwt,
       title: "JWT Token",
-      style: "shadow-pink-400",
+      style: "shadow-pink-400 hover:shadow-pink-400 ",
     },
     {
       id: 12,
       src: firebase,
       title: "Firebase",
-      style: "shadow-yellow-800",
+      style: "shadow-yellow-800 hover:shadow-yellow-800",
     },
     {
       id: 13,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-400",
+      style: "shadow-gray-400 hover:shadow-gray-400",
     },
   ];
 
@@ -110,10 +110,10 @@ const Skills = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="mt-12 text-center">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-3xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
           </p>
-          <p className="py-6">These are the technologies I have worked with</p>
+          <p className="py-6 uppercase">The technologies I have worked with</p>
         </div>
 
         <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

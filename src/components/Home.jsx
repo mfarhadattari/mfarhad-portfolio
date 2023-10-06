@@ -38,8 +38,8 @@ const Home = () => {
                 />
               </h2>
               <p className="text-gray-400 py-4 max-w-md">
-                MERN-Stack Web Developer with knowledge of HTML, CSS, Tailwind,
-                ReactJs, ExpressJs, Node, MongoDB...
+                Junior full-stack web application developer with a
+                specialization in front-end and back-end web development.
               </p>
               <Tada duration={2000}>
                 <div className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
@@ -59,7 +59,7 @@ const Home = () => {
             </div>
           </Fade>
           <Fade right duration={2000}>
-            <div className="lg:ml-52 w-full">
+            <div className="lg:ml-52 w-full ">
               <Image
                 src={mfarhad}
                 alt="me"
