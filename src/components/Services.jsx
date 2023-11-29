@@ -9,14 +9,14 @@ const Services = () => {
       image: frontend,
       name: "Frontend Development",
       details:
-        "Develop modern looking UI using HTML, CSS, JavaScript, React JS, Bootstrap & Tailwind CSS.",
+        "Develop modern UI using HTML, CSS, JavaScript, TypeScript, React.JS, Next.JS, Bootstrap & TailwindCSS etc.",
     },
     {
       id: 2,
       image: backend,
       name: "Backend Development",
       details:
-        "Backend REST API development using ExpressJS, MongoDB and Node JS.",
+        "Develop REST API using JavaScript, TypeScript, ExpressJS, MongoDB, Mongoose & NodeJS etc.",
     },
     {
       id: 3,
