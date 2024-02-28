@@ -15,6 +15,15 @@ const Projects = () => {
       details: "E-commerce website with user and admin dashboard.",
       live: "https://programmer-fashion.netlify.app",
       code: "https://github.com/mfarhadattari/programmer-fashion-client",
+      tech: [
+        "React",
+        "React Router",
+        "Express.js",
+        "MongoDB",
+        "SSL commerce",
+        "TailwindCSS & DaisyUI",
+        "Firebase",
+      ],
     },
     {
       id: 2,
@@ -23,6 +32,15 @@ const Projects = () => {
       details: "Responsive and user-friendly task management website.",
       live: "https://plan-perfect.vercel.app",
       code: "https://github.com/mfarhadattari/plan-perfect",
+      tech: [
+        "React",
+        "React Router",
+        "Express.js",
+        "MongoDB",
+        "Redux Toolkit",
+        "Material-Tailwind",
+        "Firebase",
+      ],
     },
     {
       id: 3,
@@ -32,6 +50,15 @@ const Projects = () => {
         "An Educational application with admin, instructor and student role.",
       live: "https://dmf-language-club.web.app",
       code: "https://github.com/mfarhadattari/dmf-language-club-client",
+      tech: [
+        "React",
+        "React Router",
+        "Express.js",
+        "MongoDB",
+        "Stripe",
+        "TailwindCSS & DaisyUI",
+        "Firebase",
+      ],
     },
     {
       id: 4,
@@ -40,6 +67,15 @@ const Projects = () => {
       details: "E-commerce admin dashboard system.",
       live: "https://repliq-commerce.vercel.app",
       code: "https://github.com/mfarhadattari/repliq-commerce",
+      tech: [
+        "React",
+        "React Router",
+        "Express.js",
+        "MongoDB",
+        "Stripe",
+        "TailwindCSS & DaisyUI",
+        "React Query",
+      ],
     },
     {
       id: 5,
@@ -49,6 +85,15 @@ const Projects = () => {
         "A Toys Market application with user login and registration system and add toys functionality",
       live: "https://mfarhad-toy-master.web.app",
       code: "https://github.com/mfarhadattari/toy-master-client",
+      tech: [
+        "React",
+        "React Router",
+        "Express.js",
+        "MongoDB",
+        "Firebase",
+        "TailwindCSS & DaisyUI",
+        "HTML2PDF",
+      ],
     },
     {
       id: 6,
@@ -58,6 +103,14 @@ const Projects = () => {
         "A Recife website with user login and registration and private routing system.",
       live: "https://mfarhad-programmar-recipe-bd.web.app",
       code: "https://github.com/mfarhadattari/programmer-recipe-bd-client",
+      tech: [
+        "React",
+        "React Router",
+        "Express.js",
+        "Firebase",
+        "TailwindCSS & DaisyUI",
+        "React Rating",
+      ],
     },
   ];
   return (
