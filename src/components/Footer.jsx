@@ -1,5 +1,6 @@
 "use client";
 
+import db from "@/utils/db";
 import Fade from "react-reveal/Fade";
 
 const Footer = () => {
@@ -19,7 +20,7 @@ const Footer = () => {
             </p>
             <p className="text-center mt-4">
               <button className="bg-gradient-to-b from-cyan-500 to-blue-500 font-semibold text-white px-4 py-2 rounded-sm hover:scale-110 duration-300">
-                <a href="https://www.linkedin.com/in/mfarhad-dev">Hire Me ❤️</a>
+                <a href={db.links.linkedin}>Hire Me ❤️</a>
               </button>
             </p>
           </div>

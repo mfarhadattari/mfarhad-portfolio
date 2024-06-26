@@ -1,118 +1,113 @@
-import bootstrap from "../assets/skills/bootstrap.jpg";
-import css from "../assets/skills/css.png";
-import expressjs from "../assets/skills/expressjs.png";
-import firebase from "../assets/skills/firebase.png";
-import github from "../assets/skills/github.png";
-import html from "../assets/skills/html.png";
-import javascript from "../assets/skills/javascript.png";
-import jwt from "../assets/skills/jwt.jpg";
-import mongo from "../assets/skills/mongo.png";
-import mongoose from "../assets/skills/mongoose.png";
-import nextjs from "../assets/skills/nextjs.png";
-import node from "../assets/skills/node.png";
-import reactBootstrap from "../assets/skills/react-bootstrap.png";
-import reactImage from "../assets/skills/react.png";
-import redux from "../assets/skills/redux.png";
-import scss from "../assets/skills/scss.png";
-import tailwind from "../assets/skills/tailwind.png";
-import typescript from "../assets/skills/typescript.png";
-
 import Skill from "./components/Skill";
 
 const Skills = () => {
   const skills = [
     {
-      src: html,
+      src: "/assets/skills/html.png",
       title: "HTML",
       style: "hover:shadow-orange-500 shadow-orange-500",
     },
     {
-      src: css,
+      src: "/assets/skills/css.png",
       title: "CSS",
       style: "shadow-blue-500 hover:shadow-blue-500",
     },
     {
-      src: scss,
+      src: "/assets/skills/scss.png",
       title: "SCSS",
       style: "shadow-pink-400 hover:shadow-pink-400",
     },
     {
-      src: tailwind,
+      src: "/assets/skills/tailwind.png",
       title: "Tailwind",
       style: "shadow-sky-400 hover:shadow-sky-400",
     },
     {
-      src: bootstrap,
+      src: "/assets/skills/bootstrap.png",
       title: "Bootstrap",
       style: "shadow-blue-700 hover:shadow-blue-700",
     },
     {
-      src: reactBootstrap,
+      src: "/assets/skills/react-bootstrap.png",
       title: "React Bootstrap",
       style: "shadow-sky-500 hover:shadow-sky-500",
     },
     {
-      src: reactImage,
+      src: "/assets/skills/react.png",
       title: "React",
       style: "shadow-sky-800 hover:shadow-sky-800",
     },
     {
-      src: redux,
+      src: "/assets/skills/redux.png",
       title: "Redux",
       style: "shadow-purple-600 hover:shadow-purple-600",
     },
     {
-      src: nextjs,
+      src: "/assets/skills/nextjs.png",
       title: "Next JS",
       style: "shadow-white hover:shadow-white",
     },
     {
-      src: javascript,
+      src: "/assets/skills/javascript.png",
       title: "JavaScript",
       style: "shadow-yellow-500 hover:shadow-yellow-500",
     },
     {
-      src: typescript,
+      src: "/assets/skills/typescript.png",
       title: "TypeScript",
       style: "shadow-white hover:shadow-white",
     },
     {
-      src: node,
+      src: "/assets/skills/node.png",
       title: "Node JS",
       style: "shadow-green-400 hover:shadow-green-400",
     },
     {
-      src: expressjs,
+      src: "/assets/skills/expressjs.png",
       title: "Express JS",
       style: "shadow-orange-400 hover:shadow-orange-400",
     },
     {
-      src: mongo,
+      src: "/assets/skills/mongo.png",
       title: "MongoDB",
       style: "shadow-green-700 hover:shadow-green-700",
     },
     {
-      src: mongoose,
+      src: "/assets/skills/postgresql.png",
+      title: "PostgreSQL",
+      style: "shadow-[#346692] hover:shadow-[#346692]",
+    },
+    {
+      src: "/assets/skills/mongoose.png",
       title: "Mongoose",
-      style: "shadow-rose-900 hover:shadow-rose-900",
+      style: "shadow-[#870100] hover:shadow-[#870100]",
     },
     {
-      src: jwt,
+      src: "/assets/skills/prisma.png",
+      title: "Prisma",
+      style: "shadow-[#0A344A] hover:shadow-[#0A344A]",
+    },
+    {
+      src: "/assets/skills/jwt.png",
       title: "JWT Token",
-      style: "shadow-pink-400 hover:shadow-pink-400",
+      style: "shadow-[#612075] hover:shadow-[#612075]",
     },
     {
-      src: firebase,
+      src: "/assets/skills/firebase.png",
       title: "Firebase",
       style: "shadow-yellow-800 hover:shadow-yellow-800",
     },
     {
-      src: github,
+      src: "/assets/skills/github.png",
       title: "GitHub",
       style: "shadow-gray-400 hover:shadow-gray-400",
     },
+    {
+      src: "/assets/skills/postman.png",
+      title: "Postman",
+      style: "shadow-[#FE6C35] hover:shadow-[#FE6C35]",
+    },
   ];
-
   return (
     <div
       name="skills"

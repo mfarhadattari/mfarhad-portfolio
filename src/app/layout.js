@@ -1,13 +1,11 @@
+import { metainfo } from "@/utils/metainfo";
 import { Space_Grotesk } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Mohammad Farhad",
-  description: "Personal Portfolio Website",
-};
+export const metadata = metainfo;
 
 export default function RootLayout({ children }) {
   return (

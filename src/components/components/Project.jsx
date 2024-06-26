@@ -2,12 +2,16 @@ import Image from "next/image";
 import { FaGithub, FaLink } from "react-icons/fa";
 
 const Project = ({ project }) => {
-  const { src, title, live, code, details, tech } = project;
+  const { image, title, live, code, details, tech } = project;
   return (
     <div className="shadow-md shadow-gray-600 hover:shadow-lg hover:shadow-gray-600 rounded-lg h-full">
       <Image
-        src={src}
-        alt=""
+        src={image}
+        alt={title}
+        width={0}
+        height={160}
+        sizes="100vw"
+        style={{ width: "100%" }}
         className="rounded-md duration-200 lg:h-[160px] hover:scale-105"
       />
       <h2 className="mt-2 px-2 text-2xl">{title}</h2>

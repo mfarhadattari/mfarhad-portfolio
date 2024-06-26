@@ -1,31 +1,7 @@
-import backend from "../assets/services/backend.png";
-import frontend from "../assets/services/frontend.png";
-import responsive from "../assets/services/responsive.png";
+import db from "@/utils/db";
 import Service from "./components/Service";
 const Services = () => {
-  const services = [
-    {
-      id: 1,
-      image: frontend,
-      name: "Frontend Development",
-      details:
-        "Develop modern UI using HTML, CSS, JavaScript, TypeScript, React.JS, Next.JS, Bootstrap & TailwindCSS etc.",
-    },
-    {
-      id: 2,
-      image: backend,
-      name: "Backend Development",
-      details:
-        "Develop REST API using JavaScript, TypeScript, ExpressJS, MongoDB, Mongoose & NodeJS etc.",
-    },
-    {
-      id: 3,
-      image: responsive,
-      name: "Responsive Design",
-      details:
-        "Websites I make will look good in Mobile, Tablet and Desktop devices.",
-    },
-  ];
+  const services = db.services;
 
   return (
     <div

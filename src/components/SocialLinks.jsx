@@ -1,8 +1,10 @@
+import db from "@/utils/db";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 const SocialLinks = () => {
+  const { github1, github2, linkedin, facebook, whatsapp } = db.links;
   const links = [
     {
       id: 1,
@@ -11,7 +13,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/mfarhadattari",
+      href: github1,
       style: "rounded-tr-md",
     },
     {
@@ -21,7 +23,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/mfarhad-dev",
+      href: linkedin,
     },
     {
       id: 3,
@@ -30,7 +32,7 @@ const SocialLinks = () => {
           Facebook <FaFacebook size={30} />
         </>
       ),
-      href: "https://www.facebook.com/mfarhad.attari.qadari",
+      href: facebook,
     },
     {
       id: 4,
@@ -39,7 +41,7 @@ const SocialLinks = () => {
           Whatsapp <FaWhatsapp size={30} />
         </>
       ),
-      href: "https://wa.me/+8801568306714",
+      href: whatsapp,
     },
 
     {
@@ -49,7 +51,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:mfarhad.dev@gmail.com",
+      href: `mailto:${db.contractInfo.email}`,
     },
     {
       id: 6,
@@ -58,7 +60,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://drive.google.com/uc?export=download&id=1uABRmjQb7jp1lQaLwYVoQbr66TvWQLC8",
+      href: db.resume,
       style: "rounded-br-md",
     },
   ];
