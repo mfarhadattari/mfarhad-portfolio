@@ -263,7 +263,7 @@ const db = {
     "Programmer and full-stack web application developer with a specialization in front-end and back-end web development.",
   titleArray: titleArray,
   image: "/assets/mfarhad.png",
-  resume: "/assets/mfarhad-resume.pdf",
+  resume: "https://drive.google.com/uc?export=download&id=1uABRmjQb7jp1lQaLwYVoQbr66TvWQLC8",
   services: services,
   projects: projects,
   skills: skills,
